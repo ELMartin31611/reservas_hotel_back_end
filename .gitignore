@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+ENV/
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Archivos media subidos por usuarios
+media/
+
+# Archivos estáticos generados
+staticfiles/
+static_root/
+
+# Migraciones temporales opcional
+# migrations/
+# !*/migrations/
+# !*/migrations/__init__.py
+
+# IDE / Editores
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# PostgreSQL / backups
+*.sql
+*.dump
+*.backup
+
+# Node si usas frontend
+node_modules/
+dist/
+build/
+
+# Archivos de uv / pipenv / poetry opcional
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# uv
+.venv/
